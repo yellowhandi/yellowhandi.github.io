@@ -1096,7 +1096,8 @@ h6 {
 }
 
 .heading__desc {
-    margin-bottom: 0
+    margin-bottom: 0;
+	color: #000000;
 }
 
 .heading__desc+img {
