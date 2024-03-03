@@ -3497,7 +3497,9 @@ textarea.form-control {
 .header-transparent+.slider .slide__content {
     padding-top: 50px;
 }
-
+.header-transparent+.slider .slide__content_1 {
+    padding-top: 20px;
+}
 .slider {
     padding: 0
 }
