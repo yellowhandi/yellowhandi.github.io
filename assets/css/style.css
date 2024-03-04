@@ -6658,5 +6658,18 @@ textarea.form-control {
     margin: 0 auto;
     display: flex;
 }
-
+.aspect-ratio-container {
+    position: relative;
+    width: 100%;
+    /* Set the aspect ratio (16:9 in this example) */
+    padding-top: 56.25%; /* (9 / 16) * 100 */
+  }
+  .aspect-ratio-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Optional: Maintain image aspect ratio while covering its container */
+  }
 /* New Filter */
